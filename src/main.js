@@ -2,10 +2,9 @@ import { createApp } from 'vue'
 import { createDatabase } from './database';
 import './style.css'
 import App from './App.vue'
-import SocioGrpcApi from "@socotec.io/socio-grpc-api";
-import SocioVueComponents from "@socotec.io/socio-vue-components";
   
-const socioGrpcClient = new SocioGrpcApi("local");
+// If you comment out this line the error disappears
+import { TracingInstrumentation } from "@grafana/faro-web-tracing";
 
 const database = createDatabase();
 

@@ -9,19 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@socotec.io/socio-grpc-api": "^776.0.92",
-    "@socotec.io/socio-vue-components": "^7.0.0-vue3.50",
-    "rxdb": "^15.20.0",
+    "@grafana/faro-web-tracing": "^1.7.3",
+    "rxdb": "^15.22.0",
     "rxjs": "^7.8.1",
     "vue": "^3.4.21"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.2.0"
-  },
-  "overrides": {
-    "rxdb": {
-      "dexie": "3.2.7"
-    }
   }
 }
