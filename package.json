@@ -15,7 +15,9 @@
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.24.7",
     "@vitejs/plugin-vue": "^5.0.4",
-    "vite": "^5.2.0"
+    "vite": "^5.2.0",
+    "vite-plugin-babel": "^1.2.0"
   }
 }
