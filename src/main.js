@@ -1,11 +1,11 @@
 import { createApp } from 'vue'
-import { createDatabase } from './database';
 import './style.css'
 import App from './App.vue'
   
 // If you comment out this line the error disappears
 import { TracingInstrumentation } from "@grafana/faro-web-tracing";
 
+import { createDatabase } from './database';
 const database = createDatabase();
 
 const app = createApp(App)
